@@ -1,4 +1,4 @@
-import Todolist from "../../Todolist";
+import Todolist from "./Todolist"
 import React, {useState, useRef, useEffect} from "react";
 
 import {v4} from "uuid";
@@ -40,15 +40,15 @@ function App() {
     }
 
 
-    return <>
-        <Todolist todo={todo} toggleTodo={toggleTodo}/ >
-            <input ref={todoNameRef} type="text"/>
-            <button onClick={addTodo}> Add Todo</button>
-            <button onClick={clearTodo}> Clear Completed</button>
-            <div>{todo.filter(todo => !todo.complete).length} left to do</div>
+    return (
+        <>
+        <Todolist todo={todo} toggleTodo={toggleTodo}/>
+        <input ref={todoNameRef} type="text"/>
+        <button onClick={addTodo}> Add Todo</button>
+        <button onClick={clearTodo}> Clear Completed</button>
+        <div>{todo.filter(todo => !todo.complete).length} left to do</div>
         </>
-        )
-
+    )
         }
 
         export default App;
