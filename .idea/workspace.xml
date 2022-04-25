@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbea3061-504f-468f-a278-e5d7c9e0bb22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="dbea3061-504f-468f-a278-e5d7c9e0bb22" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650923083878</updated>
       <workItem from="1650923085100" duration="2057000" />
-      <workItem from="1650925297374" duration="287000" />
+      <workItem from="1650925297374" duration="599000" />
     </task>
     <servers />
   </component>
