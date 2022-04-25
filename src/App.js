@@ -1,4 +1,4 @@
-import Todolist from "./Todolist";
+import Todolist from "../../Todolist";
 import React, {useState, useRef, useEffect} from "react";
 
 import {v4} from "uuid";
