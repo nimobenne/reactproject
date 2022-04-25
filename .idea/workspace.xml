@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbea3061-504f-468f-a278-e5d7c9e0bb22" name="Changes" comment="" />
+    <list default="true" id="dbea3061-504f-468f-a278-e5d7c9e0bb22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Nimo Benne/Documents/GitHub/reactproject",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -80,6 +92,7 @@
       <updated>1650923083878</updated>
       <workItem from="1650923085100" duration="2057000" />
       <workItem from="1650925297374" duration="811000" />
+      <workItem from="1650926773682" duration="3067000" />
     </task>
     <servers />
   </component>

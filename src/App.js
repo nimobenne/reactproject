@@ -1,6 +1,6 @@
 import Todolist from "./Todolist";
 import React, {useState, useRef, useEffect} from "react";
-
+import './App.css';
 import {v4} from "uuid";
 
 const LOCALSTORAGEKEY = 'todoApp.todo'
@@ -39,16 +39,27 @@ function App() {
         setTodos(newTodos)
     }
 
+    function enterPressed(event) {
+        const code = event.keyCode || event.which;
+        if (code === 13) {
+            addTodo()
+        }
+    }
 
     return (<>
-        <Todolist todo={todo} toggleTodo={toggleTodo}/ >
-            <input ref={todoNameRef} type="text"/>
-            <button onClick={addTodo}> Add Todo</button>
-            <button onClick={clearTodo}> Clear Completed</button>
-            <div>{todo.filter(todo => !todo.complete).length} left to do</div>
-        </>
-        )
+            <h1>Task List Creator</h1>
+            <Todolist todo={todo} toggleTodo={toggleTodo}/ >
+                <input onKeyPress={enterPressed.bind(this)}
+                       placeholder={"Enter Task"}
+                       ref={todoNameRef}
+                       type="text"/>
+                <button onClick={addTodo}> Add Task</button>
+                <button onClick={clearTodo}> Clear Completed</button>
+                <div className={"div1"}>{todo.filter(todo => !todo.complete).length} tasks left!</div>
+                <footer><small><i>Made by <a href="https://github.com/nimobenne">Nimo Benne</a> &lt;3 Kam</i></small></footer>
+            </>
+            )
 
-        }
+            }
 
-        export default App;
+            export default App;
